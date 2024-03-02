@@ -26,8 +26,8 @@ for i in range(M):
 head = 0#次出力するインデックスの情報を保持
 for i in B:
     for j in range(i):
-        if j == i - 1:
-            print(A[head])
+        if j == i - 1:# 各行の最後の行を出力し改行するため
+            print(A[head])#飽くまでもAのデータを参照し出力、range由来の数値ではない。
         else:
             print(A[head], end=" ")
 
