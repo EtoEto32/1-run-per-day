@@ -1,0 +1,2 @@
+・javascriptは文字列+数値=文字列になる
+・for分やwhile分はc言語と同じ要領
