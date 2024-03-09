@@ -58,3 +58,27 @@ var team_str = "勇者,戦士,忍者,魔法使い";
 var team = []; 
 var team=team_str.split(",");//入れる先は配列
 console.log(team);
+
+
+
+// 文字列をカンマで分割してみよう
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+var input_string = "";
+var reader = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+reader.on('line', (line) => {
+    input_string = line;
+});
+
+reader.on('close', () => {
+    var array = [];
+    // ここでカンマで区切って配列に格納する
+    array=input_string.split(",")
+    console.log(array);
+});
