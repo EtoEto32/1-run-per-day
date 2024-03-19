@@ -15,3 +15,12 @@ else:
 
 #出力例1
 #No
+
+
+H, W, r, c = map(int, input().split())
+maze = [[x for x in input()] for _ in range(H)]
+print(maze)
+if maze[r - 1][c - 1] == "#":
+    print("Yes")
+else:
+    print("No")
