@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>編集</h1>
+<form method="POST">
+    <label for="name">ユーザー名</label>
+    <input type="text" name="name" value={{post.name}}>
+    <label for="age">年齢</label>
+    <input type="number" name="age" value={{post.age}}>
+    <input type="submit" value="更新">
+</form>
+{% endblock %}

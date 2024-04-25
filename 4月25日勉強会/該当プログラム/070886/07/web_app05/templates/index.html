@@ -1,0 +1,29 @@
+{% extends "bootstrap/base.html" %}
+{% block content %}
+<div class="container">
+    <h1>ユーザー一覧</h1>
+    <a href="/create" role="button" class="btn btn-link">新規登録画面</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>ユーザー名</th>
+                <th>年齢</th>
+                <th>編集</th>
+                <th>削除</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+            <tr>
+                <th>{{user[0]}}</th>
+                <th>{{user[1]}}</th>
+                <th>{{user[2]}}</th>
+                <th><a href="/{{user[0]}}/update" role="button" class="btn btn-link">編集</a></th>
+                <th><a href="/{{user[0]}}/delete" role="button" class="btn btn-link">削除</a></th>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

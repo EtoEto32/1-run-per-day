@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>新規登録</h1>
+<form method="POST">
+    <label for="name">ユーザー名</label>
+    <input type="text" name="name">
+    <label for="age">年齢</label>
+    <input type="number" name="age" value=20>
+    <input type="submit" value="新規登録">
+</form>
+{% endblock %}

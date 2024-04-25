@@ -1,0 +1,22 @@
+[2024-03-05 16:01:21,930] [INFO] : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+[2024-03-05 16:01:21,933] [INFO] : [33mPress CTRL+C to quit[0m
+[2024-03-05 16:01:21,935] [INFO] :  * Restarting with stat
+[2024-03-05 16:01:22,577] [WARNING] :  * Debugger is active!
+[2024-03-05 16:01:22,581] [INFO] :  * Debugger PIN: 306-448-221
+[2024-03-05 16:01:59,698] [INFO] : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+[2024-03-05 16:01:59,698] [INFO] : [33mPress CTRL+C to quit[0m
+[2024-03-05 16:01:59,716] [INFO] :  * Restarting with stat
+[2024-03-05 16:02:00,270] [WARNING] :  * Debugger is active!
+[2024-03-05 16:02:00,280] [INFO] :  * Debugger PIN: 306-448-221
+[2024-03-05 16:02:07,084] [INFO] : Select * FROM user ORDER BY id
+[2024-03-05 16:02:07,099] [INFO] : 127.0.0.1 - - [05/Mar/2024 16:02:07] "GET / HTTP/1.1" 200 -
+[2024-03-05 16:02:09,415] [INFO] : SELECT * FROM user WHERE id = 2
+[2024-03-05 16:02:09,423] [INFO] : 127.0.0.1 - - [05/Mar/2024 16:02:09] "GET /2/update HTTP/1.1" 200 -
+[2024-03-05 16:02:11,462] [INFO] : SELECT * FROM user WHERE id = 2
+[2024-03-05 16:02:11,465] [INFO] : UPDATE user SET name = '斉藤　祐子', age = 22 WHERE id = 2
+[2024-03-05 16:02:11,465] [INFO] : 127.0.0.1 - - [05/Mar/2024 16:02:11] "[32mPOST /2/update HTTP/1.1[0m" 302 -
+[2024-03-05 16:02:11,791] [INFO] : Select * FROM user ORDER BY id
+[2024-03-05 16:02:11,791] [INFO] : 127.0.0.1 - - [05/Mar/2024 16:02:11] "GET / HTTP/1.1" 200 -
+[2024-03-05 16:02:12,918] [INFO] : 127.0.0.1 - - [05/Mar/2024 16:02:12] "GET /create HTTP/1.1" 200 -

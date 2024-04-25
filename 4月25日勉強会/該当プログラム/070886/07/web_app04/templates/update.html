@@ -1,0 +1,13 @@
+{% extends "bootstrap/base.html" %}
+{% block content %}
+<div class="container">
+    <h1>編集</h1>
+    <form method="POST">
+        <label for="name">ユーザー名</label>
+        <input type="text" name="name" value={{post[1]}} class="form-control">
+        <label for="age">年齢</label>
+        <input type="number" name="age" value={{post[2]}} class="form-control">
+        <input type="submit" value="更新" class="btn btn-primary">
+    </form>
+</div>
+{% endblock %}

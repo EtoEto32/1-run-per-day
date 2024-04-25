@@ -1,0 +1,147 @@
+■はじめにお読みください
+このファイルは『目指せ！ 稼げるプログラマー』（金宏和實著、日経BP、2024年）で取り上げたサンプルプログラムおよびサンプルデータです。基本的には書籍で取り上げたデータはご自分でコーディングすることがスキルアップにつながると考えておりますが、動作の確認などを通じて学習のお役に立てば幸いです。
+
+収録したファイルを利用した結果、直接的、間接的被害が生じた場合でも、日経BP並びに著者はいかなる責任も負いません。ご自身の責任と判断でご利用ください。
+
+
+■サンプルプログラムのコメントについて
+サンプルプログラムには、書籍に掲載したコードにコメントを書き加えているものがあります。コメントにより誌面とファイルとで行番号が異なる場合があります。あらかじめご了承ください。
+
+
+■収録ファイル
+［01］フォルダ……Chapter1
+p.014		for_loop.py
+p.023		logic_error_01.py
+p.024		logic_error_02.py
+p.029		syntax_error.py
+p.030		zero_divide.py
+p.032～037	runtime_error.py
+			※p.032～037で説明したコードを1ファイルにまとめてあります
+p.039		file_not_found.py
+p.039		sample_01.txt
+
+
+［02］フォルダ……Chapter2
+p.042		code2-1.py
+p.045		code2-2.py
+p.046～048	code2-4.py
+p.049～050	code2-5.py
+p.051		code2-6.py
+p.052		code2-7.py
+p.053		code2-8.py
+p.054		code2-9.py
+p.059		code2-11.py
+p.062		sample01.csv
+p.062		sample02.csv
+p.062		code2-12.py
+p.065		ref_count.py
+p.066		use_gc.py
+p.068		code2-13.py
+p.068		sample.csv
+――		file_open_with.py
+			※p.062のコード2-12に関連した参考プログラムです
+			（誌面上にこのプログラムについての説明はありません）
+
+
+［03］フォルダ……Chapter3
+p.077		tuple_01.py
+p.078		code3-1.py
+p.080		tuple_02.py
+p.081		tuple_03.py
+p.082		code3-2.py
+p.082		code3-3.py
+p.085		code3-4.py
+p.089		code3-5.py
+p.090～091	set_01.py
+			※p.090～091で説明したコードを1ファイルにまとめてあります
+p.092		set_02.py
+p.096～097	namedtuple_01.py
+p.098		normaldict_01.py
+p.099		code3-9.py
+p.100		code3-10.py
+p.103		code3-13.py
+p.105～106	code3-14.py
+p.107		code3-15.py
+
+
+［04］フォルダ……Chapter4
+p.114～119	training_01.py
+			※p.114～119で説明したコードを1ファイルにまとめてあります
+p.123		code4-3.py
+p.128		code4-5.py
+p.131		code4-6.py
+p.135		organize_files01.py
+
+	［請求書］フォルダ
+	p.113		アルキテック202311.pdf
+	p.113		アルキテック202312.pdf
+	p.113		アルキテック202401.pdf
+	p.113		大木商事202311.pdf
+	p.113		大木商事202312.pdf
+	p.113		大木商事202401.pdf
+	p.113		玉山鉄工202311.pdf
+	p.113		玉山鉄工202312.pdf
+	p.113		玉山鉄工202401.pdf
+
+
+［05］フォルダ……Chapter5
+p.140		coding_style_01.py
+p.143		swap2values.py
+p.147		func_01.py
+p.148		func_02.py
+p.149		listcomp_01.py
+p.150～151	listcomp_02.py
+p.152		enumerate_01.py
+p.154～155	zip_01.py
+p.160		code5-9.py
+p.161		code5-10.py
+p.164		code5-12.py
+p.167～168	type_hints_01.py
+p.168		type_hints_02.py
+p.170		type_hints_03.py
+p.172		type_hints_04.py
+p.173		type_hints_05.py
+
+
+［06］フォルダ……Chapter6
+	［web_app01］フォルダ
+	p.179、189	app.py
+		［templates］フォルダ
+		p.187～189	hello.html
+	［web_app02］フォルダ
+	p.194、206	app.py
+		［templates］フォルダ
+		――		sample.db※誌面上では特に説明していません
+		［templates］フォルダ
+		p.200		base.html
+		p.201		index.html
+		p.203		create.html
+		p.205		update.html
+	［web_app03］フォルダ
+	p.213		app.py
+		［templates］フォルダ
+		――		sample.db※誌面上では特に説明していません
+		［templates］フォルダ
+		p.214		index.html
+		p.215		create.html
+		p.216		update.html
+
+
+［07］フォルダ……Chapter7
+	［web_app04］フォルダ
+	p.229		app.py
+	p.228		sample.db
+		［templates］フォルダ
+		p.228		index.html
+		p.228		create.html
+		p.228		update.html
+	［web_app05］フォルダ
+	p.239、249	app.py
+	p.239		sample.db
+	p.248		app_config.py
+		［templates］フォルダ
+		p.239		index.html
+		p.239		create.html
+		p.239		update.html
+		[logs]フォルダ
+		p.243		app.log
