@@ -1,7 +1,7 @@
 import glob
 import shutil  # フォルダ操作
 import os
-
+print("aiueo")
 # r=raw文字列　特殊な文字ではないという意思表示。
 
 for orig_obj in glob.glob(r".\請求書\*.pdf"):
