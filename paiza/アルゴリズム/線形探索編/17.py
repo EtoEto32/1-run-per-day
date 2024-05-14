@@ -1,11 +1,3 @@
-N = int(input())
-li = list(map(int, input().split()))
-
-li = sorted(li)
-print(li[-2])
-
-
-#アルゴリズム的な解き方
 n = int(input())
 a = [int(x) for x in input().split()]
 
